@@ -1,0 +1,19 @@
+#spring:
+#  datasource:
+#    username: root
+#    password: gotoroot1A
+#    url: jdbc:mysql://192.168.146.146:3306/catmall_ums
+#    driver-class-name: com.mysql.jdbc.Driver
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#  application:
+#    name: catmall-member
+#mybatis-plus:
+#  mapper-locations: classpath*:/mapper/**/*.xml
+#  global-config:
+#    db-config:
+#      id-type: auto
+#server:
+#  port: 8000
